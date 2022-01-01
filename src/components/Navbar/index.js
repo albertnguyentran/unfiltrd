@@ -2,8 +2,9 @@ import React, {useState, useEffect} from 'react'
 import {FaBars} from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
 import {Nav, NavbarContainer, NavLogo, 
-    MobileIcon, NavMenu, NavItem, NavLinks, NavLink, NavBtn, NavBtnLink} from './NavbarElements';
+    MobileIcon, NavMenu, NavItem, NavLinks, NavLink} from './NavbarElements';
 import {animateScroll as scroll} from 'react-scroll'
+
 const Navbar = ({ toggle }) => {
 
     const [scrollNav, setScrollNav] = useState(false)

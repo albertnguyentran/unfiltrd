@@ -1,23 +1,22 @@
-import {Button} from '../ButtonElements';
-import  {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img, Text} from './InfoElements';
-import React, { PureComponent } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import  {InfoContainer, Heading, Text} from './InfoElements';
+import React from 'react';
+
 
 
   
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
+const InfoSection = () => {
     return (
         <>
 
             <InfoContainer id="about">
 
                 <Heading>How it works</Heading>
-                <Text>Handles form submission and calculates Bias (x) vs. Sentiment (y) values using NLP. Determining the overall tone of the message presented.</Text>
+                <Text>Handles text submission and calculates Bias (x) vs. Sentiment (y). Using npms NLP javscript library I was able to calculate sentiment and bias (by determining the clustering of key words).</Text>
                 <Heading>Why I made it</Heading>
-                <Text>Reading the news can be interesting. I decided to create Unfiltrd to recognize bias as a way to learn NLP</Text>
-                <Heading>Tech Stack</Heading>
-                <Text>ReactJs + Javascript Libraries</Text>
+                <Text> Unfiltrd detects the overall bias presented in a medium of text to better inform you of what you are reading. </Text>
+                <Heading>Tools and Technologies</Heading>
+                <Text>ReactJs, Javascript NLP library, recharts</Text>
             </InfoContainer>
         </>
     );
