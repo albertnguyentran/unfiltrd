@@ -1,5 +1,4 @@
 # unfiltrd
-hacktheridge 2021
 
 How it works: Handles text submission and calculates Bias (x) vs. Sentiment (y). Using npms NLP javscript library I was able to calculate sentiment and bias (by determining the clustering of key words).
 
