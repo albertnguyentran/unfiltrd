@@ -1,6 +1,6 @@
 # unfiltrd
 
-How it works: Handles text submission and calculates Bias (x) vs. Sentiment (y). Using npms NLP javscript library I was able to calculate sentiment and bias (by determining the clustering of key words).
+How it works: Handles text submission and calculates Bias (x) vs. Sentiment (y). Using npms NLP javscript library I was able to calculate sentiment and bias (by determining the clustering of key words). Algorithm is in the index.js of the Start component
 
 Why I made it: Unfiltrd detects the overall bias presented in a medium of text to better inform you of what you are reading.
 
